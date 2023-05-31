@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180.3deg, rgb(17, 16, 16) 5.5%, rgb(97, 71, 104) 90.2%);
+    font-family: 'Playfair', serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem; 
+}
+
+.home {
+    background-color: rgba(199, 115, 199, 0.596);
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 0.5rem;
+   
+}
+
+.home:hover {
+    background-color: rgba(199, 115, 199, 0.87);
+    cursor: pointer;
+    box-shadow: 5px 10px 20px white;
+    transition: 0.5s ease;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+
+.scoreli {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    color: rgb(208, 193, 226);
+}

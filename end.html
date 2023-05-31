@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="end.css">
+    <script defer src="end.js"></script>
+    <title>Simple Quize-end</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column-flex">
+            <h1 class="high-score">High Score: </h1>
+            <h1 class="total-score"><span class="totalScore"></span></h1>
+            <form action="submit" class="userName">
+                <input 
+                class="input-user"
+                type="text"
+                name="userName"
+                placeholder="username"/>
+                <button class="save-score-btn" onclick="saveHighScore(event)" disabled id="saveScoreBtn">
+                    Submit
+                </button>
+                <a class="play-again-btn" href="/game.html">
+                    Play Again
+                </a>
+                <a class="home-btn" href="/">
+                    Go Home
+                </a>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
