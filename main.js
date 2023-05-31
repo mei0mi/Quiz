@@ -3,7 +3,8 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const scores = document.querySelector('.addScore');
 const questionCounterText = document.querySelector('.addQuestion');
-
+const loader = document.querySelector('.loader')
+const game = document.querySelector('#game')
 
 //VARIABELS 
 
@@ -34,7 +35,8 @@ fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
 
         return formattedQuestion;
     });
-
+    game.classList.remove('hidden')
+    loader.classList.add('hidden')
     startGame()
 })
     .catch(error => {

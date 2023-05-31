@@ -26,7 +26,7 @@ h2 {
     color: white;
 }
 
-#choices {
+#game {
     max-width: 900px;
     min-width: 700px;
     border-radius: 20px;
@@ -90,3 +90,27 @@ h2 {
     max-width: 680px;
 }
 
+/*LOADER*/
+
+.hidden {
+    display: none;
+  }
+
+.loader {
+    border: 5mm solid white;
+    border-radius: 50%;
+    border-top: rgb(199, 115, 199) 5mm solid;
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    animation: spiner 2s linear infinite ;
+}
+
+@keyframes spiner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
