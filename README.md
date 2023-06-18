@@ -1,9 +1,8 @@
 # Quiz
 
 HTML/CSS/JS quiz 
-
-![Screenshot (7)](https://github.com/mei0mi/Quiz/assets/126321476/80233850-5939-46bb-9540-e486a0da3567)
-![Screenshot (8)](https://github.com/mei0mi/Quiz/assets/126321476/8a25c84f-bc98-4a55-ba7c-ad6da94581d5)
-![Screenshot (9)](https://github.com/mei0mi/Quiz/assets/126321476/0255895b-caea-48af-a4d2-3419f3fd88fe)
-![Screenshot (10)](https://github.com/mei0mi/Quiz/assets/126321476/57c0860a-720d-497f-bc6a-d51a558f8065)
+![Screenshot (7)](https://github.com/mei0mi/Quiz/assets/126321476/70e23f2d-6562-4e84-a1b0-b2454066189a)
+![Screenshot (8)](https://github.com/mei0mi/Quiz/assets/126321476/875e1a8d-0d55-4279-815d-4b04d50c8ca4)
+![Screenshot (9)](https://github.com/mei0mi/Quiz/assets/126321476/431953c7-161b-4a57-8b11-a9ffd692a1a3)
+![Screenshot (10)](https://github.com/mei0mi/Quiz/assets/126321476/6f42a36d-6c37-4512-9774-d5504e6e41c1)
 
